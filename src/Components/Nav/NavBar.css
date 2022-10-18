@@ -1,0 +1,141 @@
+.header {
+  margin: 0;
+  min-height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  border-bottom: 0.5px solid white;
+  background: #25184d;
+  color: white;
+}
+
+.logo  {
+  width: 20%;
+}
+
+.navigation {
+    width: 80%
+}
+
+.logo img {
+    width: 50%;
+    border-radius: 50%;
+}
+
+.navigation {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+}
+
+.nav-items {
+  color: var(--textPrimary);
+  flex-direction: column;
+  font-size: 1.3em;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  background: #25184d;
+  padding: 20px 20px;
+  display: flex;
+  display: none;
+  border-radius: 10px;
+  transition-property: display;
+  transition: 0.4s ease-in;
+}
+
+.nav-items.expanded {
+    display: flex;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-items a {
+    margin: 20px 0;
+}
+
+.nav-buttons {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nav-buttons button {
+  background: #25184d;
+  border: none;
+  color: white;
+  font-weight: 550;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.nav-icons {
+    font-size: 1.5em;
+    margin-left: 5px;
+}
+
+.theme-toggle {
+    margin: 0 10px;
+}
+
+@media screen and (min-width: 700px) {
+
+    .nav-items {
+        display: flex;
+    }
+
+    .nav-toggle {
+        visibility: hidden;
+    }
+
+    .nav-items {
+        visibility: visible;
+        position: static;
+        flex-direction: row;
+    }
+
+    .nav-items a{
+        margin: 0 10px;
+    }
+
+    .nav-buttons button {
+        border-radius: 25px;
+        border: 1px solid white;
+        padding: 10px 20px;
+    }
+    
+    .navigation {
+        justify-content: space-evenly;
+    }
+    .logo img {
+        width: 30%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .header {
+        padding: 20px 100px;
+    }
+
+    .nav-items a{
+        margin: 0 20px;
+    }
+
+    .nav-buttons button {
+        border-radius: 25px;
+        border: 1px solid white;
+        padding: 10px 20px;
+        font-size: 1.2em;
+    }
+    .logo, .navigation {
+        width: 50%;
+    }
+    .logo img {
+        width: 10%; 
+    }
+}
