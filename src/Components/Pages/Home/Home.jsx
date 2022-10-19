@@ -1,8 +1,11 @@
 import React from 'react'
+import Header from '../../Header/Header'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div className='home-body'>
+      <Header />
+    </div>
   )
 }
 
