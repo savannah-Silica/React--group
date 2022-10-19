@@ -1,9 +1,11 @@
 import './App.css';
+import FooterOne from './Components/Footer/footer1';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Welcome to Savanna Silica</h1>
+    <div className="container">
+      <FooterOne /> 
+      
     </div>
   );
 }

@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Footer = () => {
+const Navbar = () => {
   return (
-    <div>Footer</div>
+    <div>Navbar</div>
   )
 }
 
-export default Footer
+export default Navbar
