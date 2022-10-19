@@ -18,7 +18,6 @@ const Animation = ({children}) => {
         newIndex = 0
       }
       setIndex(newIndex);
-      console.log(index);
     };
 
     useEffect(() =>{
