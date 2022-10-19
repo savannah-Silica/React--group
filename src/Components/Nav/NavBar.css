@@ -13,6 +13,7 @@
 .nav-links{
     display: flex;
     gap: 1.5rem;
+    z-index: 999;
 }
 
 .nav-link{
