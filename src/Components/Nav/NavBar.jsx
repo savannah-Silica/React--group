@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import logo from '../../Assets/logo.jpg'
+import logo from '../../Assets/logo.png'
 import './NavBar.css'
 import {BiMenu} from 'react-icons/bi'
 import {BsMoon} from 'react-icons/bs'

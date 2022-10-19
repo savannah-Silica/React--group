@@ -19,8 +19,7 @@
 }
 
 .logo img {
-    width: 50%;
-    border-radius: 50%;
+    width: 100%;
 }
 
 .navigation {
@@ -113,7 +112,7 @@ a {
         justify-content: space-evenly;
     }
     .logo img {
-        width: 30%;
+        width: 100%;
     }
 }
 
@@ -136,6 +135,6 @@ a {
         width: 50%;
     }
     .logo img {
-        width: 10%; 
+        width: 30%; 
     }
 }
