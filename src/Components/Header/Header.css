@@ -1,6 +1,5 @@
 .head{
     text-align: center;
-    padding: 1rem;
     margin-top: 4rem;
 }
 
@@ -63,10 +62,29 @@
 
     .head-title{
         font-size: 13px;
+        padding: 0 0.2rem;
     }
 
     .head-btn{
         padding: 0.7rem 4rem;
         font-size: 13px;
+    }
+}
+
+
+.gif{
+    width: 75%;
+    margin: auto;
+    margin-top: 8rem;
+}
+
+.gif img{
+    width: 100%;
+}
+
+@media(max-width: 768px){
+    .gif{
+        width: 100%;
+        margin-top: 3rem;
     }
 }

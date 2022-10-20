@@ -7,8 +7,17 @@ import { BsMoon } from 'react-icons/bs'
 const NavBar = () => {
   const [isExpanded, setIsExpanded] = useState(false);
   const [active, setActive] = useState('#');
+  const [sticky, setSticky] = useState('');
+
+  //update sticky state
+  window.addEventListener('scroll', ()=>{
+    if(window.pageYOffset > 80){
+         setSticky("sticky");
+    }else setSticky("");
+  })
+
   return (
-     <header className="header">
+     <header className={`header ${sticky === "sticky" ? `sticky` : ""}`}>
         <div className="logo">
             <img src={logo} alt="logo" />   
         </div>

@@ -1,0 +1,28 @@
+.sponsors{
+    color: #fff;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.sponsors-title{
+    font-size: 24px;
+}
+
+
+.sponsor-logo{
+    margin-top: 1.5rem;
+}
+
+.sponsor-logo img{
+    height: 70px;
+}
+
+@media(max-width: 768px){
+    .sponsors-title{
+        font-size: 20px;
+    }
+
+    .sponsor-logo img{
+        height: 45px;
+    }
+}

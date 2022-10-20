@@ -1,6 +1,7 @@
 import React from 'react'
 import './Header.css'
 import Animation, { AnimationItem } from '../Animation/Animation'
+import gif from '../../Assets/animation.gif'
 
 const Header = () => {
   return (
@@ -26,11 +27,15 @@ const Header = () => {
         </div>
         <div className="head-title">
             <p>Welcome to Savannah Silica, An opne-source community bringing frsh perspective
-                and tech solutions
+                and tech solutions.
             </p>
         </div>
         <div className="head-button">
             <button className='head-btn'>Join us</button>
+        </div>
+
+        <div className="gif">
+            <img src={gif} alt="animation" />
         </div>
     </div>
   )
