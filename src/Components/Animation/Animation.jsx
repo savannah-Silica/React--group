@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
 import '../Header/Header.css'
-import { BsFillArrowRightSquareFill } from 'react-icons/bs'
 
 export const AnimationItem = ({ children })=>{
     return(
