@@ -6,8 +6,9 @@ export const AnimationItem = ({ children })=>{
         <div className='animation-item'>
             {children}
         </div>
-    )
-}
+    );
+};
+
 const Animation = ({children}) => {
     const[index, setIndex] = useState(0);
     const setNewIndex = (newIndex) =>{

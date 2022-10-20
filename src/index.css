@@ -21,7 +21,7 @@ button{
   cursor: pointer;
 }
 
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -50,4 +50,4 @@ button{
     @apply bg-secondary rounded-md bg-white mt-2 p-2 focus:border-blue-500
     focus:bg-gray-200 focus:outline-none ;
   }
-}
+} */
