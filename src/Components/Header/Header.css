@@ -1,6 +1,6 @@
 .head{
     text-align: center;
-    margin-top: 4rem;
+    margin-top: 8rem;
 }
 
 .text{
@@ -45,7 +45,7 @@
 
 @media(max-width: 768px){
     .head{
-        margin-top: 2rem;
+        margin-top: 5rem;
     }
 
     .text{
