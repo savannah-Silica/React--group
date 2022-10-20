@@ -64,12 +64,9 @@ function ContactForm() {
             value={message}
           ></textarea>
         </div>
-        <button
-          className="btn"
-          type="submit"
-        >
-          Send
-        </button>
+          <button className="btn" type="submit">
+            Send
+          </button>
       </form>
     </div>
   );
