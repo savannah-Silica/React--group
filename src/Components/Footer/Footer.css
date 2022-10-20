@@ -60,7 +60,7 @@ footer .divider{
 
     .footer-links{
         flex-direction: column;
-        gap: 1.5rem;
+        gap: 1rem;
     }
 
     footer .divider{
@@ -76,8 +76,12 @@ footer .divider{
         padding: 0 1rem;
     }
 
+    .footer-link{
+        font-size: 12px;
+        gap: 0.3rem;
+    }
     .link-title{
-        font-size: 18px;
+        font-size: 15px;
         width: fit-content;
     }
 }
