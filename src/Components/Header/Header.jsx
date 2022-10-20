@@ -26,7 +26,7 @@ const Header = () => {
             </Animation>
         </div>
         <div className="head-title">
-            <p>Welcome to Savannah Silica, An opne-source community bringing frsh perspective
+            <p>Welcome to Savannah Silica, An open-source community bringing fresh perspective
                 and tech solutions.
             </p>
         </div>
