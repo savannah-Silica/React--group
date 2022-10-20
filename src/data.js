@@ -20,7 +20,7 @@ export const contact = [
   },
   {
     icon: (
-      <FaSlack style={{ background: "rgba(#3eb991,#6ecadc,#e01563,#e9a820)" }} />
+      <FaSlack />
     ),
     title: "Follow our channel",
     description: "Savannah Silica",
