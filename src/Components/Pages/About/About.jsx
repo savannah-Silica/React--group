@@ -13,8 +13,8 @@ const About = () => {
           in tech-from beginner developers to experienced professionals are wecome to join  
         </p>
         <div className="about-button">
-            <a href="#">Build in Public →
-            </a></div>
+            <button>Build in Public →
+            </button></div>
       </div>
       <div className="about-img">
        <img src={about} alt="" />
