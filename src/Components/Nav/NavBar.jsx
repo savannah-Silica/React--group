@@ -29,7 +29,7 @@ const NavBar = () => {
             <a className={`nav-link ${active === '1' ? `active` : ""}`} href="/"
             onClick={()=>setActive('1')}>Services</a>
             <a className={`nav-link ${active === '2' ? `active` : ""}`} href="/"
-            onClick={()=>setActive('2')}><Link to="/Contact">Contact Us</Link></a>
+            onClick={()=>setActive('2')}><Link to="/ContactUs">Contact Us</Link></a>
         </nav>
 
         <div className="nav-buttons">
