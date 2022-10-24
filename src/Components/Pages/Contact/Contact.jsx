@@ -33,6 +33,7 @@ const Contact = () => {
                 );
               })}
             </div>
+            <br />
             <ContactForm />
           </div>
         </div>

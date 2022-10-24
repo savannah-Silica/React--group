@@ -41,13 +41,13 @@ button{
     @apply text-3xl lg:text-4xl font-medium lg:font-extrabold mb-5 underline underline-offset-8;
   }
   .btn {
-    @apply w-[150px] items-center my-5 py-2 bg-white shadow-lg hover:shadow-teal-500/40 text-black rounded-full;
+    @apply w-[150px] items-center my-5 py-2 bg-white shadow-lg hover:bg-green text-black rounded-full;
   }
   .input {
     @apply bg-secondary mt-2 p-2 rounded-md ring-1 ring-gray-300 w-full px-4 py-2 bg-white text-black focus:border-blue-500 focus:bg-gray-200 focus:outline-none  ;
   }
   .textarea {
-    @apply bg-secondary rounded-md bg-white mt-2 p-2 focus:border-blue-500
+    @apply bg-secondary rounded-md mt-2 p-2 focus:border-blue-500 text-black
     focus:bg-gray-200 focus:outline-none ;
   }
 } */
