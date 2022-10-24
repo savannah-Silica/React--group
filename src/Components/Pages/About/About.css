@@ -1,60 +1,139 @@
-h1, span{
-    font-size: 3.5rem;
+h1,
+span {
+	font-size: 3.5rem;
 }
-h1{
-    color:white;
- margin-bottom:1rem;
+
+h1 {
+	color: white;
+	margin-bottom: 1rem;
 }
-span{
-   color: #009a90;
-   display: block;
+
+span {
+	color: #009a90;
+	display: block;
 }
-.about-intro{
-    display:flex;
+
+.about-intro {
+	display: flex;
 }
-.about-text{
-    display: flex;
-    flex-direction: column;  
-    margin:5rem ;
-    flex:1;
+
+.about-text {
+	display: flex;
+	flex-direction: column;
+	margin: 5rem;
+	flex: 1;
 }
-.about-text p{
-    color: #ffff;
-    font-size:1rem;
+
+.about-text p {
+	color: #ffff;
+	font-size: 1rem;
 }
-.about-button{
-    margin-top:2rem;
+
+.about-button {
+	margin-top: 2rem;
 }
-.about-button a{
-    color: #ffff;
-    background-color: #009a90;
-    border: none;
-    padding: 0.7rem 3rem;
-    border-radius: 25px;
-    font-size: 18px;
-    cursor:pointer;
+
+.about-button button {
+	color: #ffff;
+	background-color: #009a90;
+	border: none;
+	padding: 0.7rem 3rem;
+	border-radius: 25px;
+	font-size: 18px;
+	cursor: pointer;
 }
-.about-button a:hover{
-    background-color: #056761;
+
+.about-button button:hover {
+	background-color: #056761;
 }
+
 .about-img {
-flex:1;
+	flex: 1;
 }
-.about-img img{
-    max-width:100%;
-    height:auto;
+
+.about-img img {
+	max-width: 100%;
+	height: auto;
 }
+
+
+#essentials {
+	margin-top: 10rem;
+	text-align: center;
+	color: #fff;
+}
+
+.essentials_main {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+.essentials_sub {
+	font-size: 1.1rem;
+}
+
+.essentials_projects-link {
+	font-size: 1.5rem;
+	margin-bottom: 4rem;
+}
+
+.essentials_cards {
+	margin: 2rem 0;
+	display: flex;
+	justify-content: center;
+}
+
+.essentials_card {
+	background-color: rgba(0, 0, 0, .1);;
+	border-radius: 24px;
+	border: 2px solid rgba(255, 255, 255, .1);
+	padding: 2rem 1rem; 
+	margin: 1.5rem;
+	max-width: 450px;
+}
+
+.essentials_img {
+	max-width: 50%;
+	margin-bottom: 1rem;
+}
+
+.essentials_caption {
+	/* width: 80%; */
+	margin: 0 auto;
+}
+
+.essentials_title {
+	text-transform: uppercase;
+	margin-bottom: 1rem;
+	font-size: 1.5rem;
+	font-weight: normal;
+}
+
+.essentials_description {
+	line-height: 1.7;
+}
+
+
 /*Media Queries*/
-@media(max-width: 768px){
-    h1, span{
-        font-size: 2rem;
-    }
-.about-intro{
-   display: block;
-}
-.about-button a{
-    padding: 0.7rem 1rem;
-    border-radius: 25px;
-    font-size: 18px;
-}
+@media(max-width: 768px) {
+
+	h1,
+	span {
+		font-size: 2rem;
+	}
+
+	.about-intro {
+		display: block;
+	}
+
+	.about-button a {
+		padding: 0.7rem 1rem;
+		border-radius: 25px;
+		font-size: 18px;
+	}
+
+	.essentials_cards {
+		flex-direction: column;
+		align-items: center;
+	}
+
 }
