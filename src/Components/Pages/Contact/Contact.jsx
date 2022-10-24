@@ -1,45 +1,87 @@
-import React from "react";
-import { contact } from "../../../data";
-import ContactForm from "./ContactForm";
+import React from 'react'
+import './Contact.css'
+import {
+  BsWhatsapp,
+  BsTwitter,
+  BsFacebook,
+  BsInstagram,
+  BsSlack
+} from 'react-icons/bs'
 
 const Contact = () => {
   return (
-    <>
-      <section className="section bg-primary h-auto ">
-        <div className="container mx-auto">
-          <div className="flex flex-col lg:gap-x-8 lg:flex-row">
-            <div className="w-9/12">
-              <div className="flex flex-col ">
-                <h2 className="section-title ">
-                  Reach Out To Us
-                </h2>
+    <div className='main'>
+      <div className='contact'>
+        <div className="reach-out">
+          <h2>Reach out to us</h2>
+          <div className="contact-icons">
+            <div className="contact-icon">
+              <div className="icon-item">
+                <BsWhatsapp />
               </div>
-              <br />
-              {contact.map((item, index) => {
-                const { icon, title, description } = item;
-                return (
-                  <div
-                    className="flex flex-col lg:flex-row gap-x-4"
-                    key={index}
-                  >
-                    <div className=" rounded-sm w-14 h-14 flex items-start justify-center mt-2 mb-4 lg:mb-0 text-2xl">
-                      {icon}
-                    </div>
-                    <div>
-                      <h4 className="font-body text-xl mb-1">{title}</h4>
-                      <p className="text-accent font-normal ">{description}</p>
-                    </div>
-                  </div>
-                );
-              })}
+              <div className="icon-text">
+                <p>Chat with us</p>
+                <p className="channel-path">0711 111 111</p>
+              </div>
             </div>
-            <br />
-            <ContactForm />
+            <div className="contact-icon">
+              <div className="icon-item">
+                <BsTwitter />
+              </div>
+              <div className="icon-text">
+                <p>Tweet to us</p>
+                <p className="channel-path">@savannahtechies</p>
+              </div>
+            </div>
+            <div className="contact-icon">
+              <div className="icon-item">
+                <BsSlack />
+              </div>
+              <div className="icon-text">
+                <p>Follow our channel</p>
+                <p className="channel-path">Savannah Silica</p>
+              </div>
+            </div>
+            <div className="contact-icon">
+              <div className="icon-item">
+                <BsInstagram />
+              </div>
+              <div className="icon-text">
+                <p>Follow us</p>
+                <p className="channel-path">@savannah_silica</p>
+              </div>
+            </div>
+            <div className="contact-icon">
+              <div className="icon-item">
+                <BsFacebook />
+              </div>
+              <div className="icon-text">
+                <p>Friend us</p>
+                <p className="channel-path">Savnnah Silica</p>
+              </div>
+            </div>
           </div>
         </div>
-      </section>
-    </>
-  );
-};
+        <div className="form">
+          <form action="#">
+            <label htmlFor="">Your Name
+            <input type="text" placeholder='Enter your name'/></label>
+            <label htmlFor="">Your Email
+            <input type="text" placeholder='Enter your Email'/></label>
+            <label htmlFor="">Your Message
+            <textarea name="" id="" cols="30" rows="10" placeholder='Hello'></textarea>
+            </label>
+            <input type="submit" value="Submit"/>
+          </form>
+        </div>
+      </div>
+      <div className="newsletter">
+        <h2>Our weekly newsletter</h2>
+        <p>Want to learn more about open-source and collaboration</p>
+        <button>Subscribe</button>
+      </div>
+    </div>
+  )
+}
 
-export default Contact;
+export default Contact

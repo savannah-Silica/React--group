@@ -25,11 +25,13 @@ const NavBar = () => {
 
         <nav className={`nav-links ${isExpanded ? `nav-toggled` : ""}`}>
             <a className={`nav-link ${active === '#' ? `active` : ''}`} href="/"
-            onClick={()=>setActive("#")}>About Us</a>
-            <a className={`nav-link ${active === '1' ? `active` : ""}`} href="/"
-            onClick={()=>setActive('1')}>Services</a>
+            onClick={()=>setActive("#")}>Home</a>
+            <a className={`nav-link ${active === '1' ? `active` : ''}`} href="/"
+            onClick={()=>setActive("1")}>About Us</a>
             <a className={`nav-link ${active === '2' ? `active` : ""}`} href="/"
-            onClick={()=>setActive('2')}><Link to="/ContactUs">Contact Us</Link></a>
+            onClick={()=>setActive('2')}>Services</a>
+            <a className={`nav-link ${active === '3' ? `active` : ""}`} href="/"
+            onClick={()=>setActive('3')}><Link to="/ContactUs">Contact Us</Link></a>
         </nav>
 
         <div className="nav-buttons">
