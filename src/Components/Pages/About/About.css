@@ -133,6 +133,7 @@ span {
 
 	.essentials_cards {
 		flex-direction: column;
+		align-items: center;
 	}
 
 }
