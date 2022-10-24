@@ -56,6 +56,63 @@ span {
 	height: auto;
 }
 
+
+#essentials {
+	margin-top: 10rem;
+	text-align: center;
+	color: #fff;
+}
+
+.essentials_main {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+.essentials_sub {
+	font-size: 1.1rem;
+}
+
+.essentials_projects-link {
+	font-size: 1.5rem;
+	margin-bottom: 4rem;
+}
+
+.essentials_cards {
+	margin: 2rem 0;
+	display: flex;
+	justify-content: center;
+}
+
+.essentials_card {
+	background-color: rgba(0, 0, 0, .1);;
+	border-radius: 24px;
+	border: 2px solid rgba(255, 255, 255, .1);
+	padding: 2rem 1rem; 
+	margin: 1.5rem;
+	max-width: 450px;
+}
+
+.essentials_img {
+	max-width: 50%;
+	margin-bottom: 1rem;
+}
+
+.essentials_caption {
+	/* width: 80%; */
+	margin: 0 auto;
+}
+
+.essentials_title {
+	text-transform: uppercase;
+	margin-bottom: 1rem;
+	font-size: 1.5rem;
+	font-weight: normal;
+}
+
+.essentials_description {
+	line-height: 1.7;
+}
+
+
 /*Media Queries*/
 @media(max-width: 768px) {
 
@@ -73,4 +130,9 @@ span {
 		border-radius: 25px;
 		font-size: 18px;
 	}
+
+	.essentials_cards {
+		flex-direction: column;
+	}
+
 }
