@@ -3,6 +3,7 @@ import logo from '../../Assets/logo.png'
 import './NavBar.css'
 import { BiMenu } from 'react-icons/bi'
 import { BsMoon } from 'react-icons/bs'
+import { Link } from 'react-router-dom'
 
 const NavBar = () => {
   const [isExpanded, setIsExpanded] = useState(false);
@@ -28,7 +29,7 @@ const NavBar = () => {
             <a className={`nav-link ${active === '1' ? `active` : ""}`} href="/"
             onClick={()=>setActive('1')}>Services</a>
             <a className={`nav-link ${active === '2' ? `active` : ""}`} href="/"
-            onClick={()=>setActive('2')}>Contact Us</a>
+            onClick={()=>setActive('2')}><Link to="/ContactUs">Contact Us</Link></a>
         </nav>
 
         <div className="nav-buttons">
