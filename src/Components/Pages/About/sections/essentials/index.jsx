@@ -7,6 +7,7 @@ const Essentials = () => {
 		{ imgSrc: imgSrc1, title: 'Vision', description: `Make as many people able to contribute to Open-source in however way possible and write clean code` },
 		{ imgSrc: imgSrc2, title: 'Mission', description: 'Make contribution to Open-source easy for everyone' },
 	]
+	console.log(data)
 
 	const cards = data.map((v, i) => <EssentialCard key={i} imgSrc={v.imgSrc} title={v.title} description={v.description} />)
 

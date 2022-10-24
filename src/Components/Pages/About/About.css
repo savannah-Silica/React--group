@@ -15,6 +15,7 @@ span {
 
 .about-intro {
 	display: flex;
+	margin-top: 3rem;
 }
 
 .about-text {
@@ -41,6 +42,8 @@ span {
 	border-radius: 25px;
 	font-size: 18px;
 	cursor: pointer;
+	display: flex;
+	gap: 1rem;
 }
 
 .about-button button:hover {
@@ -58,7 +61,7 @@ span {
 
 
 #essentials {
-	margin-top: 10rem;
+	margin-top: 5rem;
 	text-align: center;
 	color: #fff;
 }
@@ -123,17 +126,20 @@ span {
 
 	.about-intro {
 		display: block;
+		padding: 0;
+		margin-top: 2.5rem;
 	}
 
-	.about-button a {
-		padding: 0.7rem 1rem;
-		border-radius: 25px;
-		font-size: 18px;
+	.about-text{
+		margin: 0;
+		padding: 0.5rem;
 	}
-
 	.essentials_cards {
 		flex-direction: column;
 		align-items: center;
 	}
 
+	.about-img{
+		margin-top: 1rem;
+	}
 }
