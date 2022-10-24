@@ -127,12 +127,15 @@ span {
 	.about-intro {
 		display: block;
 		padding: 0;
-		margin-top: 2.5rem;
+		margin-top: 4rem;
 	}
 
 	.about-text{
 		margin: 0;
-		padding: 0.5rem;
+		padding: 0.7rem;
+	}
+	.about-text p{
+		font-size: 14px;
 	}
 	.essentials_cards {
 		flex-direction: column;
