@@ -54,15 +54,15 @@ footer .divider{
 
 @media(max-width: 768px){
     footer{
-        padding: 2rem 0 1rem 1rem;
+        padding: 2rem 0 1rem 0rem;
         margin-top: 2rem;
     }
 
     .footer-links{
-        margin: 0 0 0 1rem;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 1rem;
+        width: 90%;
     }
 
     footer .divider{
@@ -70,7 +70,7 @@ footer .divider{
         margin-bottom: 1rem;
     }
 
-    .footer-logo, .footer-links{
+    .footer-logo{
         width: 100%;
     }
 
@@ -85,5 +85,7 @@ footer .divider{
     .link-title{
         font-size: 15px;
         width: fit-content;
+        padding-bottom: 0.1rem;
+        margin-bottom: 0.5rem;
     }
 }
