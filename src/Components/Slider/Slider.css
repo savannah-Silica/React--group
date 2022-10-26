@@ -1,0 +1,44 @@
+.slider{
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    margin: auto;
+}
+
+.innerDiv{
+    white-space: nowrap;
+    transition: 0.7s;
+    position: relative;
+}
+
+.sliderItem{
+    display: inline-flex;
+    height: 100%;
+    margin-top: -8%;
+    padding: 0 0.1rem;
+}
+
+.spotlights-images{
+    width: 100%;
+}
+
+.spotlights-text{
+    background-color: rgb(199, 192, 192);
+    text-align: start;
+    padding: 0.5rem 1rem;
+    border-radius: 0 0 5px 5px;
+}
+
+.spotlights-text h2{
+    font-size: 18px;
+    margin-bottom: 0.5rem;
+}
+
+.spotlights-text p{
+    font-size: 15px;
+}
+
+.images-item img{
+    width: 100%;
+}
+

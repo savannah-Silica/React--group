@@ -15,7 +15,7 @@ span {
 
 .about-intro {
 	display: flex;
-	margin-top: 3rem;
+	margin: 3rem auto;
 }
 
 .about-text {
@@ -118,24 +118,21 @@ span {
 
 /*Media Queries*/
 @media(max-width: 768px) {
-
-	h1,
-	span {
-		font-size: 2rem;
-	}
-
-	.about-intro {
-		display: block;
-		padding: 0;
-		margin-top: 4rem;
+	.about-intro{
+		flex-direction: column;
+		padding: 0 8px;
 	}
 
 	.about-text{
 		margin: 0;
-		padding: 0.7rem;
 	}
+
+	h1, span{
+		font-size: 32px;
+	}
+
 	.about-text p{
-		font-size: 14px;
+		font-size: 16px;
 	}
 	.essentials_cards {
 		flex-direction: column;

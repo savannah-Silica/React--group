@@ -1,5 +1,6 @@
 import React from 'react'
 import './Contact.css'
+import Newsletter from './Newsletter'
 import {
   BsWhatsapp,
   BsTwitter,
@@ -75,11 +76,7 @@ const Contact = () => {
           </form>
         </div>
       </div>
-      <div className="newsletter">
-        <h2>Our weekly newsletter</h2>
-        <p>Want to learn more about open-source and collaboration</p>
-        <button>Subscribe</button>
-      </div>
+      <Newsletter />
     </div>
   )
 }
