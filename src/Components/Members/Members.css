@@ -96,7 +96,7 @@
 @media(max-width: 768px){
     .members{
         border-radius: 0;
-        padding: 1rem 0 0;
+        padding: 1rem 0;
         height: max-content;
     }
     .starts{
