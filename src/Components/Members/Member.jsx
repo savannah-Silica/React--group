@@ -1,11 +1,13 @@
 import React from 'react'
-import member from '../../Assets/image.jpg'
+import member from '../../Assets/person.jpeg'
+import member2 from '../../Assets/person2.jpg'
+import member3 from '../../Assets/person3.jpeg'
 
 const Member = () => {
     const memberInfo = [
+        {img: member2, name: "Name", project: "App"},
         {img: member, name: "Name", project: "App"},
-        {img: member, name: "Name", project: "App"},
-        {img: member, name: "Name", project: "App"}
+        {img: member3, name: "Name", project: "App"}
     ]
   return (
     memberInfo.map((member, i) =>
