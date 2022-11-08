@@ -96,7 +96,7 @@
 @media(max-width: 768px){
     .members{
         border-radius: 0;
-        padding: 0;
+        padding: 1rem 0 0;
         height: max-content;
     }
     .starts{
@@ -130,5 +130,9 @@
    .mobile{
     display: block;
     margin-top: 2.5rem;
+   }
+
+   .mobile .slider {
+    width: 90%;
    }
 }
