@@ -1,6 +1,8 @@
 import React from 'react'
 import Slider, { SliderItem } from '../Slider/Slider'
-import car1 from '../../Assets/image.jpg'
+import member from '../../Assets/person.jpeg'
+import member2 from '../../Assets/person2.jpg'
+import member3 from '../../Assets/person3.jpeg'
 
 const Courasel = () => {
   return (
@@ -8,7 +10,7 @@ const Courasel = () => {
         <SliderItem>
             <div className="spotlights-images">
                 <div className="images-item">
-                    <img src={car1} alt="" />
+                    <img src={member2} alt="" />
                 </div>
                 <div className="spotlights-text">
                     <h2 className="names">Name</h2>
@@ -19,7 +21,7 @@ const Courasel = () => {
         <SliderItem>
             <div className="spotlights-images">
                 <div className="images-item">
-                    <img src={car1} alt="" />
+                    <img src={member} alt="" />
                 </div>
                 <div className="spotlights-text">
                     <h2 className="names">Name</h2>
@@ -30,7 +32,7 @@ const Courasel = () => {
         <SliderItem>
             <div className="spotlights-images">
                 <div className="images-item">
-                    <img src={car1} alt="" />
+                    <img src={member3} alt="" />
                 </div>
                 <div className="spotlights-text">
                     <h2 className="names">Name</h2>
