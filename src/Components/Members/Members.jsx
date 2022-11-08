@@ -1,8 +1,8 @@
 import React from 'react'
 import './Members.css'
-import member from '../../Assets/image.jpg'
 import Newsletter from '../Pages/Contact/Newsletter'
 import Courasel from '../Courasel/Courasel'
+import Member from './Member'
 
 const Members = () => {
   return (
@@ -34,33 +34,7 @@ const Members = () => {
                 </p>
             </div>
             <div className="spotlight-images desktop">
-                <div className="image-item">
-                    <div className="image">
-                        <img src={member} alt="" />
-                    </div>
-                    <div className="spotlight-text">
-                        <h2 className="name">Name</h2>
-                        <p className="project">App</p>
-                    </div>
-                </div>
-                <div className="image-item">
-                    <div className="image">
-                        <img src={member} alt="" />
-                    </div>
-                    <div className="spotlight-text">
-                        <h2 className="name">Name</h2>
-                        <p className="project">App</p>
-                    </div>
-                </div>
-                <div className="image-item">
-                    <div className="image">
-                        <img src={member} alt="" />
-                    </div>
-                    <div className="spotlight-text">
-                        <h2 className="name">Name</h2>
-                        <p className="project">App</p>
-                    </div>
-                </div>
+                <Member />
             </div>
             <div className="mobile">
                 <Courasel />

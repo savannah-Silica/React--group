@@ -1,15 +1,13 @@
 .members{
     background-image: linear-gradient(to bottom, #171c30, #1e3041);
-    border-top: 1px solid #fff;
     margin-top: 3rem;
     padding: 1rem 0 3rem;
-    border-radius: 45% 45% 0 0;
 }
 
 .starts{
     display: flex;
     justify-content: space-around;
-    width: 55%;
+    width: 75%;
     margin: 2rem auto 3rem;
 }
 
@@ -19,7 +17,7 @@
     gap: 0.5rem;
 }
 
-.starts span{
+.start span{
     color: #fff;
     font-size: 20px;
 }
@@ -30,7 +28,7 @@
 }
 
 .spotlight-header{
-    width: 22%;
+    width: 50%;
     margin: auto;
     color: #ffff;
     display: flex;
@@ -52,6 +50,7 @@
     align-items: inherit;
     gap: 2rem;
     margin-top: 2rem;
+    padding: 0 1rem;
 }
 
 .image-item:nth-of-type(odd){

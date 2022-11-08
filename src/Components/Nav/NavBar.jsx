@@ -23,10 +23,14 @@ const NavBar = () => {
 			</div>
 
 			<nav className={`nav-links ${isExpanded ? `nav-toggled` : ""}`}>
-				<NavLink className="nav-link" to="/home">Home</NavLink>
-				<NavLink className="nav-link" to="/about">About Us</NavLink>
-				<NavLink className="nav-link" to="/services">Services</NavLink>
-				<NavLink className="nav-link" to="/contacts">Contact Us</NavLink>
+				<NavLink onClick={() => setIsExpanded(!isExpanded)} 
+					className="nav-link" to="/home">Home</NavLink>
+				<NavLink onClick={() => setIsExpanded(!isExpanded)} 
+					className="nav-link" to="/about">About Us</NavLink>
+				<NavLink onClick={() => setIsExpanded(!isExpanded)} 
+					className="nav-link" to="/services">Services</NavLink>
+				<NavLink onClick={() => setIsExpanded(!isExpanded)} 
+					className="nav-link" to="/contacts">Contact Us</NavLink>
 			</nav>
 
 			<div className="nav-buttons">

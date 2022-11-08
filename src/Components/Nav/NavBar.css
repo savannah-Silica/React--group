@@ -8,10 +8,12 @@
 }
 
 .sticky{
-    position: fixed;
-    top: 0;
-    width: 100%;
+    position: sticky;
+    top: 0.5rem;
+    width: 85%;
+    margin: auto;
     background-color: #273347;
+    border-radius: 50px;
 }
 
 .logo img{
@@ -66,28 +68,33 @@
         box-sizing: border-box;
     }
 
+    .sticky{
+        top: 0;
+        width: 100%;
+        border-radius: 0;
+    }
+
     .logo img{
         height: 55px;
     }
 
     .nav-links{
         position: absolute;
-        width: max-content;
-        padding: 1rem;
-        right: 2rem;
-        top: 10%;
+        width: 100%;
+        top: -100%;
         flex-direction: column;
         align-items: center;
         background-color: #273347;
-        border: 0.01rem solid #525252;
-        border-radius: 5px;
         transition: all 0.9s ease-in-out;
         display: none;
     }
 
     .nav-toggled{
         display: flex;
+        top: 4rem;
+        padding: 1rem 0;
     }
+
     .nav-toggle{
         display: block;
         margin-right: 0.5rem;
@@ -98,3 +105,4 @@
         font-size: 18px;
     }
 }
+

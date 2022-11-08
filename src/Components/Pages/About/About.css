@@ -16,12 +16,13 @@ span {
 .about-intro {
 	display: flex;
 	margin: 3rem auto;
+	align-items: center;
 }
 
 .about-text {
 	display: flex;
 	flex-direction: column;
-	margin: 5rem;
+	margin: 0 5rem;
 	flex: 1;
 }
 
@@ -91,7 +92,7 @@ span {
 	border: 2px solid rgba(255, 255, 255, .1);
 	padding: 2rem 1rem; 
 	margin: 1.5rem;
-	max-width: 450px;
+	max-width: 300px;
 }
 
 .essentials_img {
@@ -100,7 +101,6 @@ span {
 }
 
 .essentials_caption {
-	/* width: 80%; */
 	margin: 0 auto;
 }
 

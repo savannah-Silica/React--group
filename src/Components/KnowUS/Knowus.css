@@ -11,7 +11,7 @@
 }
 
 .knowus-title{
-    margin: auto;
+    margin: 3rem auto 0;
     width: 50%;
 }
 
@@ -22,7 +22,8 @@
 }
 
 .knowus-title p{
-    font-size: 16px;
+    font-size: 24px;
+    margin-top: 0.5rem;
 }
 
 .knowus-image{
