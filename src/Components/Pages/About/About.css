@@ -143,3 +143,32 @@ span {
 		margin-top: 1rem;
 	}
 }
+
+
+/* leaders */
+.leaders-section{
+	width: 75%;
+	margin: 6rem auto 2rem;
+	text-align: center;
+}
+
+.leaders-title{
+	color: #fff;
+	font-size: 48px;
+	text-transform: uppercase;
+	font-weight: 700;
+	margin-bottom: 2rem;
+}
+@media(max-width: 768px){
+	.leaders-section{
+		width: 100%;
+	}
+
+	.leaders-title{
+		font-size: 32px;
+	}
+	
+	.leaders-dt{
+		display: none;
+	}
+}

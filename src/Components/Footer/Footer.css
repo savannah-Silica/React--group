@@ -82,10 +82,26 @@ footer .divider{
         font-size: 12px;
         gap: 0.3rem;
     }
+
+    .footer-link:nth-child(2){
+        text-align: end;
+    }
+
+    .footer-link:nth-child(4){
+        text-align: end;
+    }
+
     .link-title{
         font-size: 15px;
-        width: fit-content;
         padding-bottom: 0.1rem;
         margin-bottom: 0.5rem;
+        border: 0;
+    }
+
+    .link-title::after{
+        content: "";
+        position: absolute;
+        height: 1px;
+        width: 50%;
     }
 }

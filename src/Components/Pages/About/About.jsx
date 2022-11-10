@@ -3,11 +3,12 @@ import { BsArrowRight } from 'react-icons/bs'
 import about from '../../../Assets/about.svg'
 import './About.css'
 import Essentials from './sections/essentials'
+import Leaders from '../../Leader/Leaders'
 
 const About = () => {
 	return (
 		<>
-			<div className='about-intro'>
+			<section className='about-intro'>
 				<div className="about-text">
 					<h1>We Are <span>SAVANNAH SILICA</span></h1>
 					<p>When you join us, you'll have the oppurtunity to learn new skills in a variety of formats.
@@ -22,11 +23,18 @@ const About = () => {
 				<div className="about-img">
 					<img src={about} alt="" />
 				</div>
-			</div>
+			</section>
 
 			<section id="essentials">
 				<Essentials />
 			</section>
+
+			<div className='leaders-section'>
+				<p className='leaders-title'>Leadership</p>
+				<div className="leaders-dt">
+					<Leaders />
+				</div>
+			</div>
 		</>
 	)
 }

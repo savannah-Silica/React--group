@@ -2,7 +2,8 @@ import React from "react";
 import './Footer.css'
 import logo from "../../Assets/logo.png";
 import { FaGithub, FaSlack, FaInstagram } from "react-icons/fa";
-import { CiLocationOn, CiTwitter } from "react-icons/ci";
+import { ImLocation } from "react-icons/im";
+import { CiTwitter } from 'react-icons/ci'
 import { SiGmail } from "react-icons/si";
 
 const Footer = () => {
@@ -14,7 +15,7 @@ const Footer = () => {
       </div>
       <div className="footer-links">
         <div className="footer-link">
-          <p className="logo-link"><CiLocationOn /> Global</p>
+          <p className="logo-link"><ImLocation /> Global</p>
           <p className="logo-link"><FaGithub /> savannah-Silica</p>
           <p className="logo-link"><FaSlack /> savannah-Silica</p>
           <p className="logo-link"><FaInstagram /> @savannahtechies</p>
