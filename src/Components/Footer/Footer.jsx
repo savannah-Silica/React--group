@@ -43,7 +43,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="copy">
-        <p>Copyright @ 2022 Savannah Silica. All rights reserved</p>
+        <p> &copy; 2022 Savannah Silica. All rights reserved</p>
       </div>
     </footer>
   );
