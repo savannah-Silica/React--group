@@ -9,6 +9,7 @@ import {
   BsSlack
 } from 'react-icons/bs'
 
+
 const Contact = () => {
   return (
     <div className='main'>

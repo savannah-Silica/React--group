@@ -22,7 +22,6 @@ const Slider = ( {children} ) => {
             newIndex = 0;
         };
         setActiveIndex(newIndex)
-
     };
 
     const [paused, setPaused] = useState(true)

@@ -3,7 +3,7 @@ import logo from '../../Assets/logo.png'
 import './NavBar.css'
 import { BiMenu } from 'react-icons/bi'
 import { BsMoon } from 'react-icons/bs'
-import { NavLink } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 
 const NavBar = () => {
 	const [isExpanded, setIsExpanded] = useState(false);
@@ -35,7 +35,7 @@ const NavBar = () => {
 
 			<div className="nav-buttons">
 				<BsMoon className='nav-icons theme-toggle' />
-				<button className='btn'>Sign In</button>
+				<Link to="/dashboard/home" className='btn'>Sign In</Link>
 				<BiMenu className='nav-icons nav-toggle' onClick={() => setIsExpanded(!isExpanded)} />
 			</div>
 		</header>

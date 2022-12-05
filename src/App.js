@@ -4,6 +4,7 @@ import Home from "./Components/Pages/Home/Home";
 import About from "./Components/Pages/About/About";
 import NavBar from "./Components/Nav/NavBar";
 import Contact from "./Components/Pages/Contact/Contact"
+import Dasboard from "./Components/Dashboard/Dashboardhome/Dasboard";
 import { Route, Routes, Navigate } from "react-router-dom";
 
 
@@ -16,6 +17,7 @@ function App() {
 				<Route path="/home" element={<Home />}></Route>
 				<Route path="/about" element={<About />}></Route>
 				<Route path="/contacts" element={<Contact />}></Route>
+				<Route path="/dashboard/home" element={<Dasboard />}/>
 			</Routes>
 			<Footer />
 		</div>

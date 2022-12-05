@@ -26,15 +26,15 @@ const About = () => {
 			</section>
 
 			<section id="essentials">
-				<Essentials />
+				<Essentials />   
 			</section>
 
-			<div className='leaders-section'>
+			<section className='leaders-section'>
 				<p className='leaders-title'>Leadership</p>
 				<div className="leaders-dt">
 					<Leaders />
 				</div>
-			</div>
+			</section>
 		</>
 	)
 }
